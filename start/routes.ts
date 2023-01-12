@@ -21,4 +21,5 @@
 import Route from '@ioc:Adonis/Core/Route'
 // import PokemonController from 'App/Controllers/Http/PokemonController'
 
-Route.get('/', 'PokemonController.index')
+Route.get('/pokemon', 'PokemonController.index')
+Route.post('/pokemon', 'PokemonController.store')
