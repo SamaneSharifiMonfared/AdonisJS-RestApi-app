@@ -12,6 +12,6 @@
 This is a Rest API Using AdonisJS , (->Node JS) using CRUD API structure (create,read,update,delete)
 
 <br>
-I have used Adonis JS for structure of this node js project (like Laravel to PHP).
+I have used Adonis JS for structure of this node js project (Which is something like Laravel to PHP).
 <br>
 Once our project is initialized, we are going to download our Express, Knex, and Postgres dependencies:
