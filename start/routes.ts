@@ -19,7 +19,6 @@
 */
 
 import Route from '@ioc:Adonis/Core/Route'
+// import PokemonController from 'App/Controllers/Http/PokemonController'
 
-Route.get('/', async () => {
-  return { hello: 'world' }
-})
+Route.get('/', 'PokemonController.index')

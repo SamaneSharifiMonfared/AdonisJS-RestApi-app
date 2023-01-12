@@ -15,3 +15,10 @@ This is a Rest API Using AdonisJS , (->Node JS) using CRUD API structure (create
 I have used Adonis JS for structure of this node js project (Which is something like Laravel to PHP).
 <br>
 Once our project is initialized, we are going to download our Express, Knex, and Postgres dependencies:
+<br>
+Knex will allow us to migrate(Create our rows and columns) and seed(populate our tables with data).
+<br>
+Postgres will allow us to connect to our database and later utilize PostgreSQL to make queries to our database. Express will then allow us to manipulate the data utilizing API calls.
+<br>
+<b>References:</b><br>
+https://medium.com/@andrewm.enoe/create-a-pokemon-api-using-node-express-knex-postgresql-5e5c88ae650b
