@@ -1,4 +1,4 @@
-# AdonisJS-RestApi-app
+# AdonisJS-RestApi-app-**CRUD Pokemon APP**
     POST will allow users to Create Data
 
     GET will allow users to Read Data
@@ -10,7 +10,7 @@
 
 <div class="col-2"><img src="CRUD.jpg"></img></div>
 This is a Rest API Using AdonisJS , (->Node JS) using CRUD API structure (create,read,update,delete)
-
+The main propose of this app to simply create, read, update and delete Pokemons.
 <br>
 I have used Adonis JS for structure of this node js project (Which is something like Laravel to PHP).
 <br>
