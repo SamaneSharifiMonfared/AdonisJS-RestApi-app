@@ -20,5 +20,9 @@ Knex will allow us to migrate(Create our rows and columns) and seed(populate our
 <br>
 Postgres will allow us to connect to our database and later utilize PostgreSQL to make queries to our database. Express will then allow us to manipulate the data utilizing API calls.
 <br>
+Database Installation:
+npm i @adonisjs/lucid <br> node ace configure @adonisjs/lucid ->to configure (I choose MYSQL)
+
+
 <b>References:</b><br>
 https://medium.com/@andrewm.enoe/create-a-pokemon-api-using-node-express-knex-postgresql-5e5c88ae650b
