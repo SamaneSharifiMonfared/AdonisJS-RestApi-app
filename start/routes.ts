@@ -24,5 +24,5 @@ import Route from '@ioc:Adonis/Core/Route'
 Route.get('/pokemon', 'PokemonController.index') //Read list of Pokémon
 Route.get('/pokemon/:id', 'PokemonController.read') //Read one of Pokémons with id
 Route.post('/pokemon', 'PokemonController.store') //Create new Pokemon
-Route.patch('/pokemon/update/:id', 'PokemonController.update') // update pokemon by id and the information in the request
-Route.delete('/pokemon/delete/:id', 'PokemonController.delete') //Delete pokemon by id in the body request
+Route.patch('/pokemon/:id', 'PokemonController.update') // update pokemon by id and the information in the request
+Route.delete('/pokemon/:id', 'PokemonController.delete') //Delete pokemon by id in the body request

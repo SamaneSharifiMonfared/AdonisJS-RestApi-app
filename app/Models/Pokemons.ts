@@ -10,8 +10,6 @@ export default class Pokemons extends BaseModel {
   public color: string
   @column()
   public description: string
-  @column()
-  public deleted: boolean
 
   // @column.dateTime({ autoCreate: true })
   // public createdAt: DateTime

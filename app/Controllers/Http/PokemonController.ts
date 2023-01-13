@@ -10,12 +10,12 @@ export default class PokemonController {
 
   public async store({ request, response }: HttpContextContract) {
     //create a new pokemon
-    Pokemons.create({
+    const pokemon = Pokemons.create({
       name: request.input('name'),
       color: request.input('color'),
       description: request.input('description'),
     })
-    return response.send('created')
+    return pokemon
   }
 
   public async read({ request, response, params}: HttpContextContract){
@@ -32,16 +32,15 @@ export default class PokemonController {
     pokemon.description = request.input('description')
     pokemon.save()
     return response.status(202).send(pokemon)
-
     //response status codes 200 : default . successful
     //response status codes 204 : no content
     //response status codes 202 : updated
-
   }
 
   public async delete({request, response, params}: HttpContextContract){
 
     const pokemon = await Pokemons.findOrFail(params.id)
     await pokemon.delete()
+    return response.status(202).send(pokemon)
   }
 }

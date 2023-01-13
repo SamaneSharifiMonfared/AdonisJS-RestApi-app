@@ -9,7 +9,6 @@ export default class extends BaseSchema {
       table.string('name')
       table.string('color')
       table.string('description')
-      table.boolean('deleted').defaultTo(0)
 
       /**
        * Uses timestamptz for PostgreSQL and DATETIME2 for MSSQL
