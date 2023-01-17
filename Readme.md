@@ -12,7 +12,7 @@
 This is a Rest API application using CRUD methodology (create,read,update,delete)
 The main propose of this app is to simply create, read, update and delete Pokemons using endpoints.
 <br>
-I have used Adonis JS for structure of this project (Which is something like Laravel to PHP).
+I have used Adonis JS for structure of this project (Using Typescript) (Which is something like Laravel to PHP).
 <br>
 <br>
 Database Installation:
